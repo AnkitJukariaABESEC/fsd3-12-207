@@ -7,7 +7,7 @@ const server=http.createServer((req,res)=>{
 server.listen(444,()=>{
     console.log("Server is running...");
 })
-
+// req-request kaha se aya hai batayega
 // npm init -y ye package.json banayega taki hume bar bar server ko start aur stop na karna pade
-// npm-node package manager
+// npm-node package manager(install,uninstall)
 // npm i nodemon -D
