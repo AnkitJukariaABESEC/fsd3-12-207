@@ -23,3 +23,13 @@ script{
 - REST API uses (get,post,put,patch,delete) method to communicate with client
 - any browser can check only get method
 - for other method type we use third party API Tester like postman, thunder client, echo api etc
+
+# request type
+- getAll,getByid
+- url->/api/products(iska matlab get all products)
+- get: /api/products/101(us product ko lao jiski id 101 hai)
+- post: /api/products(add products to the database,data will be shared by echo api body section)
+- put/patch: /api/products/201 ()
+- delete: /api/products/110
+
+- exported functions can be used by other functions
